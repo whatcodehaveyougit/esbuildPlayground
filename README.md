@@ -21,5 +21,5 @@ Install TS globally,
 npm install -g typescript
 
 type in tsc (stands for typescript compiler)
-you should see the list of commands below
+you should see the list of commands below.
 
