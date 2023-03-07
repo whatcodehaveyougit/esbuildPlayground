@@ -23,3 +23,34 @@ npm install -g typescript
 type in tsc (stands for typescript compiler)
 you should see the list of commands below.
 
+__________________________________________
+
+Command for compiling the app.jsx file
+
+./node_modules/.bin/esbuild ./src/app.tsx --bundle --outfile=out.js
+
+You can see in the file there will be loads of React code bundled up etc and at bottom you will see
+the code I wrote.
+
+To execute the file you run:
+
+node out.js
+
+__________________________________________
+
+To run the browser builder field, you execute the command:
+
+node browser-builder.js
+
+_____________________________________________
+
+npx http-server
+
+This is a zero config webserver that will serve up whatever is in the public folder.
+
+
+________________________________________________
+
+esbuild-register
+
+This is what enables hot-reloading (on the fly transpilation)
