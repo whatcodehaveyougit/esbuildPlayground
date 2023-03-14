@@ -38,9 +38,12 @@ node out.js
 
 __________________________________________
 
-To run the browser builder field, you execute the command:
+To run the browser builder file, execute the command:
 
 node browser-builder.js
+
+The out directory is the the public/dist folder
+Have a look there to see what is generated
 
 _____________________________________________
 

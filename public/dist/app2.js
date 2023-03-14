@@ -23479,7 +23479,7 @@
   // src/app2.tsx
   var import_react = __toESM(require_react());
   var import_react_dom = __toESM(require_react_dom());
-  var App2 = () => /* @__PURE__ */ import_react.default.createElement("div", null, "Hello esbuild world");
+  var App2 = () => /* @__PURE__ */ import_react.default.createElement("div", null, /* @__PURE__ */ import_react.default.createElement("h3", null, "Hello esbuild world"), /* @__PURE__ */ import_react.default.createElement("p", null, "This is using the browser builder method to render"), /* @__PURE__ */ import_react.default.createElement("p", null, "See the browser builder file"), /* @__PURE__ */ import_react.default.createElement("p", null, "The command which is run is"), /* @__PURE__ */ import_react.default.createElement("b", null, "node browser-builder.js"), /* @__PURE__ */ import_react.default.createElement("p", null, "This generates the dist directory in the public folder"), /* @__PURE__ */ import_react.default.createElement("p", null, "Which can be served up to a web browser, voila."));
   import_react_dom.default.render(/* @__PURE__ */ import_react.default.createElement(App2, null), document.getElementById("root"));
 })();
 /*! Bundled license information:
