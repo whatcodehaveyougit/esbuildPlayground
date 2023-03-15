@@ -12,6 +12,7 @@ const App2 = () =>
     <i>npm start = node -r esbuild-register index.ts</i>
     <p>In the index.ts file we have created a simple express server which serves up whatever is in the public folder</p>
 
+    <p>Hot Reloading is working with nodemon.</p>
   </div>
 
 ReactDOM.render(<App2 />, document.getElementById('root'))

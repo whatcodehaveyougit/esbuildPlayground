@@ -56,4 +56,35 @@ ________________________________________________
 
 esbuild-register
 
-This is what enables hot-reloading (on the fly transpilation)
+This is what enables on the fly transpilation.
+
+If we run the command: node -r esbuild-register sigurd.ts
+
+This will exectue that code, show we can transpile and run out application straight away.
+
+So. If we run 'node -r esbuild-register src/index.ts':
+This will run the index.ts file and we will be able to see our application on localhost:3000
+
+However, if we do a chance to the index.ts or to the application we will not be able to see our changes unless we.
+Change the console.log message in the index.ts file.
+Change something in the app2.tsx file, rebuild the assets and then restart the server.
+
+So how to make hot reloading?
+
+Download Nodemon
+
+See the 'dev' command.
+This allows us to run again the file which will regenerate the assets and then runs the index.ts file again
+(This will redeploy the application using the express server)
+which means that we just need to refresh the page and we will see the changes.
+
+Then of course as we are using ESBuild this will be super fast.
+
+
+
+MORE INFO....
+
+
+
+
+Which will in turn make hot-reloading possible
